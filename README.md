@@ -19,15 +19,20 @@ Unity Life Cycle
 
 MonoBehavior - IPlayManager
 
-Awake -> OnEnter
-Destory -> OnExit
-Update -> cGameFlow [ Coroutine 으로 관리 ]
+- Awake -> OnEnter
+- Destory -> OnExit
+- Update -> cGameFlow [ Coroutine 으로 관리 ]
 
 # 구현 사항
 
 - Model - ModelManager 관리 [ 모델 불러오기 ]
 - Scene - Load 관리 [ ILoadManager ]
 - ObjectPool 
+    - IObject : 오브젝트
+    - FXObject : 이펙트
+    - 환경오브젝트 구상중.... 
+
+
 
 
 # 업데이트 예정
