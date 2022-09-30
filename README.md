@@ -12,6 +12,8 @@ MainScene 에서 시작
 Scene 추가시 Scene_[ Scene 이름 ] 형태로 생성 
 Build Setting 에 Scene 추가
 
+Font 적용 X
+
 # 프레임워크 특이점
 
 
